@@ -1,8 +1,8 @@
-import Navbar from './Components/Navbar';
-import Footer from './Components/Footer';
-import About from './Components/About';
-import Blog from './Components/Blog';
-import Services from './Components/Services';
+import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer';
+import About from './Components/About/About';
+import Blog from './Components/Blog/Blog';
+import Services from './Components/Services/Services';
 import './App.css'
 
 function App() {
