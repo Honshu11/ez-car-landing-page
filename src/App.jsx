@@ -1,7 +1,7 @@
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import About from './Components/About/About';
-import Blog from './Components/Blog/Blog';
+import Pricing from './Components/Pricing/Pricing';
 import Services from './Components/Services/Services';
 import './App.css'
 
@@ -10,7 +10,7 @@ function App() {
     <div className='App'>
       <Navbar/>
       <About id='about'/>
-      <Blog id='blog'/>
+      <Pricing id='pricing'/>
       <Services id='services'/>
       <Footer/>
     </div> 

@@ -1,8 +1,11 @@
 import './style.css';
+
 function Footer() {
   return (
-    <div>This is Footer</div>
+    <div className='FooterContainer'>
+      <div>This is footer</div>
+    </div>
   )
 }
 
-export default Footer
+export default Footer;
