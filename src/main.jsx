@@ -6,6 +6,9 @@ import './index.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
+//Bootstrap Icons CSS
+import "bootstrap-icons/font/bootstrap-icons.css";
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
