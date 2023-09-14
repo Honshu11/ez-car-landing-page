@@ -7,7 +7,7 @@ function Footer() {
         <div className="row">
           <div className="col-lg-3 col-md-6">
             <div className="mb-4">
-              <img src="./Images/ezlogo.png" alt="ez-car-logo" className='img-fluid'/>
+              <img src="/Images/ezlogo.png" alt="ez-car-logo" className='img-fluid'/>
             </div>
             <div className="social-icons">
               <a href="" target='_blank'>

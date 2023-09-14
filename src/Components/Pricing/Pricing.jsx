@@ -1,8 +1,9 @@
 import './style.css';
-function Blog() {
+
+function Pricing() {
   return (
-    <div>This is Blog</div>
+    <div>This is Pricing</div>
   )
 }
 
-export default Blog;
+export default Pricing;
