@@ -8,7 +8,7 @@ function Navbar() {
     <>
       <nav className={'navbar navbar-expand-lg navbar-dark bg-dark bgdark'}>
         <div className='container-fluid'>
-          <img src="https://www.w3schools.com/images/lamp.jpg" alt="Lamp" width="32" height="32"></img> {/*company logo here*/}
+          <img src="/Images/ezlogo.png" alt="company logo" width="36" height="32"></img> {/*company logo here*/}
           <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
             <span className='navbar-toggler-icon'></span>
           </button>
@@ -22,6 +22,9 @@ function Navbar() {
               </li>
               <li className='nav-item'>
                 <button className={'nav-link navtitleColor'} onClick={() => handleOnClick('services')}>Services</button>
+              </li>
+              <li className='nav-item'>
+                <button className={'nav-link navtitleColor'} onClick={() => handleOnClick('blog')}>Blog</button>
               </li>
             </ul>
           </div>
