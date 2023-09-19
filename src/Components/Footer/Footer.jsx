@@ -4,9 +4,9 @@ function Footer() {
   return (
     //  Footer 
     <footer className="bg-dark text-center text-white" id="footer">
-      <div className="container p-1 flex flex-col justify-between items-center">
+      <div className="container flex flex-col justify-between items-center">
         {/*Social media */}
-        <div className="container p-1">
+        <div className="container">
           <a
             href="#!"
             type="button"
@@ -49,7 +49,7 @@ function Footer() {
         </div>
       </div>
       {/* Copyright section */}
-      <div className="text-center text-white p-2">
+      <div className="text-center text-white pb-2 px-1">
         &copy; {new Date().getFullYear()} Ez Car Registration Services. All rights reserved.
       </div>
     </footer>
