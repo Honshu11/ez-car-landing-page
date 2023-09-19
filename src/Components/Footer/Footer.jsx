@@ -3,8 +3,8 @@ import './style.css';
 function Footer() {
   return (
     //  Footer 
-    <footer className="bg-dark text-center text-white">
-      <div className="container p-1 flex  flex-col justify-between items-center">
+    <footer className="bg-dark text-center text-white" id="footer">
+      <div className="container p-1 flex flex-col justify-between items-center">
         {/*Social media */}
         <div className="container p-1">
           <a
@@ -49,7 +49,7 @@ function Footer() {
         </div>
       </div>
       {/* Copyright section */}
-      <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+      <div className="text-center text-white p-2">
         &copy; {new Date().getFullYear()} Ez Car Registration Services. All rights reserved.
       </div>
     </footer>
