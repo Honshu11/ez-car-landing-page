@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 BlogCard.propTypes = {
     blogInfo: PropTypes.object,
 }
+
 function BlogCard({ blogInfo }) {
     return (
         <div className="blog_card">
