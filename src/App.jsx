@@ -1,8 +1,8 @@
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import About from './Components/About/About';
-import Pricing from './Components/Pricing/Pricing';
 import Appointment from './Components/Appointment/Appointment';
+import Location from './Components/Location/Location';
 import Blog from './Components/Blog/Blog';
 import './App.css'
 
@@ -11,8 +11,8 @@ function App() {
     <div className='App bg-dark'>
       <Navbar/>
       <About id='about'/>
-      <Pricing id='pricing'/>
       <Appointment id='appointment'/>
+      <Location id='location'/>
       <Blog id='blog'/>
       <Footer/>
     </div> 

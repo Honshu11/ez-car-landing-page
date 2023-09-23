@@ -24,7 +24,7 @@ function About() {
 
   return (
     <div className="container mt-5 text-white">
-      <h1 className="display-4 fw-bolder">About EZ Car Registration Services</h1>
+      <h1 className="display-4 fw-bolder">EZ Car Registration Services</h1>
       <p className="lead">
         EZ Car Registration Services is a family-owned company that specializes in Business Partner Automation (BPA) programs.
         We are authorized to process various vehicle-related transactions, making it convenient for our customers.
