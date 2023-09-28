@@ -8,7 +8,7 @@ function HeroCards() {
                 <div className="row justify-content-center text-center">
                     <div className="col-md-10 col-lg-8">
                         <div className="header-section">
-                            <h2 className="title">Exclusive<span> Service</span></h2>
+                            <h2 className="title">Ez Car Registration<span> Services</span></h2>
                              <p className="description">
                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi a officia molestiae quo. Excepturi accusantium voluptate amet sapiente. Autem ex nesciunt minus inventore eum architecto corporis labore mollitia, explicabo dolorem!
                              </p>
@@ -19,7 +19,7 @@ function HeroCards() {
                     <div className="col-mg-6 col-lg-4">
                         <div className="single-service">
                             <div className="part-1">
-                                <i className="fab fa-500px"></i>
+                                <i className="fa fa-car"></i>
                                     <h3 className="title">Title</h3>
                             </div>
                             <div className="part-2">
