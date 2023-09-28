@@ -1,0 +1,11 @@
+.blogContainerTitle {
+    color: #f70037;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom:20px;
+}
+
+.blog_Container{
+    padding-bottom:50px;
+}

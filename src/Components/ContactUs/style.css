@@ -1,0 +1,28 @@
+.address-container {
+    color: white;
+    border-radius: 10px;
+}
+
+.business-contact {
+    font-weight: bold;
+}
+
+.addressContainerTitle {
+    color: #f70037;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+.addressContainerSubtitle {
+    font-size: 17px;
+    letter-spacing: 0.02em;
+    line-height: 1.8em;
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 576px) {
+    .address-container {
+        padding: 10px;
+    }
+}

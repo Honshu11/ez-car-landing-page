@@ -3,7 +3,7 @@ import './style.css';
 function Footer() {
   return (
     //  Footer 
-    <footer className="bg-dark text-center text-white" id="footer">
+    <footer className="text-center text-white" id="footer">
       <div className="container flex flex-col justify-between items-center">
         {/*Social media */}
         <div className="container">
