@@ -1,21 +1,20 @@
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
-import HeroCards from './Components/HeroCards/HeroCards';
 import About from './Components/About/About';
 import Appointment from './Components/Appointment/Appointment';
-import Location from './Components/Location/Location';
+import ContactUs from './Components/ContactUs/ContactUs';
 import Blog from './Components/Blog/Blog';
+import Services from './Components/Services/services';
 import './App.css'
-
 function App() {
   return (
-    <div className='App bg-dark'>
+    <div className='App'>
       <Navbar/>
-      <HeroCards id='header-cards'/>
-      <About id='about'/>
-      <Appointment id='appointment'/>
-      <Location id='location'/>
-      <Blog id='blog'/>
+      <About/>
+      <Services />
+      <Blog />
+      <Appointment />
+      <ContactUs />
       <Footer/>
     </div> 
   )

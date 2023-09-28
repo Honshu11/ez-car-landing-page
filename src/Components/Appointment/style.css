@@ -1,0 +1,12 @@
+.appointmentsContainerTitle {
+    color: #f70037;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+.appointmentsContainerSubtitle {
+    font-size: 17px;
+    letter-spacing: 0.02em;
+    line-height: 1.8em;
+}
