@@ -67,6 +67,7 @@ function Services() {
                         {services.map((service, index) => (
                             <ServiceCard key={index}
                                 serviceInfo={service}
+                                serviceNumber={index}
                             />
                         ))}
                     </div>
