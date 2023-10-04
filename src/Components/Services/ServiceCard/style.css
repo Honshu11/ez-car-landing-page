@@ -64,9 +64,10 @@ a,p,h1,h2,h3,h4,ul {
 	border-bottom: 2px solid #1d1e23;
 }
 
-.section-services .single-service .part-1 i {
+/*change services icon css in this class*/
+.section-services .single-service .part-1 svg {
 	margin-bottom: 25px;
-	font-size: 50px;
+	font-size: 30px;
 	color: #f70037;
 }
 
@@ -94,7 +95,8 @@ a,p,h1,h2,h3,h4,ul {
 	text-decoration: none;
 }
 
-.section-services .single-service .part-2 a i {
+/*change right arrow icon css in this class*/
+.section-services .single-service .part-2 a svg {
 	margin-right: 10px;
 	color: #f70037;
 }
