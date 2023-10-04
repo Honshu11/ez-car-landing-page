@@ -9,7 +9,7 @@ function Services() {
         },
         {
             serviceTitle: 'CA Titling',
-            serviceIcon: 'fa fa-car',
+            serviceIcon: 'fa-regular fa-address-card',
             serviceDescription: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi a officia molestiae quo. Excepturi accusantium voluptate amet sapiente. Autem ex nesciunt minus inventore eum architecto corporis labore mollitia, explicabo dolorem!'
         },
         {

@@ -21,6 +21,7 @@
     justify-content: center;
     display: flex;
     align-items: start;
+    color: white;
 }
 
 /* Responsive adjustments for small screens */
