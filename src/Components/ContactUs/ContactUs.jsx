@@ -14,8 +14,10 @@ const ContactUs = () => {
             <p>City, State, ZIP</p>
           </div>
         </div>
-        <p className='addressContainerSubtitle'><i className="bi bi-telephone-fill"></i> : (123) 456-7890</p>
-        <p className='addressContainerSubtitle'><i className="bi bi-envelope-fill"></i> : example@email.com</p>
+        <div className='addressContainerSubtitle'>
+          <p className='addressContainerSubtitle'><i className="bi bi-telephone-fill"></i> : (123) 456-7890</p>
+          <p className='addressContainerSubtitle'><i className="bi bi-envelope-fill"></i> : example@email.com</p>
+        </div>
       </div>
 
     </div>

@@ -18,6 +18,9 @@
     font-size: 17px;
     letter-spacing: 0.02em;
     line-height: 1.8em;
+    justify-content: center;
+    display: flex;
+    align-items: start;
 }
 
 /* Responsive adjustments for small screens */

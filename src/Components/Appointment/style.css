@@ -9,4 +9,17 @@
     font-size: 17px;
     letter-spacing: 0.02em;
     line-height: 1.8em;
+    justify-content: center;
+    display: flex;
+    align-items: start;
+}
+
+.appointmentButton {
+    font-size: 17px;
+    letter-spacing: 0.02em;
+    line-height: 1.8em;
+    margin: 0;
+    justify-content: center;
+    display: inline-block;
+    align-items: start;
 }

@@ -52,7 +52,7 @@ function Services() {
     return (
         <div id='services'>
             <section className='section-services'>
-                <div className="container">
+                <div className="container mt-3">
                     <div className="row justify-content-center text-center">
                         <div className="col-md-10 col-lg-8">
                             <div className="header-section">
