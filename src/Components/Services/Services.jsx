@@ -9,42 +9,42 @@ function Services() {
         },
         {
             serviceTitle: 'CA Titling',
-            serviceIcon: 'fa-regular fa-address-card',
+            serviceIcon: 'fa-solid fa-file-signature',
             serviceDescription: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi a officia molestiae quo. Excepturi accusantium voluptate amet sapiente. Autem ex nesciunt minus inventore eum architecto corporis labore mollitia, explicabo dolorem!'
         },
         {
             serviceTitle: 'Registration Renewals',
-            serviceIcon: 'fa fa-car',
+            serviceIcon: 'fa-regular fa-calendar-check',
             serviceDescription: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi a officia molestiae quo. Excepturi accusantium voluptate amet sapiente. Autem ex nesciunt minus inventore eum architecto corporis labore mollitia, explicabo dolorem!'
         },
         {
             serviceTitle: 'Out-of-State Title Transfers',
-            serviceIcon: 'fa fa-car',
+            serviceIcon: 'fa-solid fa-truck-moving',
             serviceDescription: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi a officia molestiae quo. Excepturi accusantium voluptate amet sapiente. Autem ex nesciunt minus inventore eum architecto corporis labore mollitia, explicabo dolorem!'
         },
         {
             serviceTitle: 'Replacements of Stickers',
-            serviceIcon: 'fa fa-car',
+            serviceIcon: 'fa-solid fa-ticket',
             serviceDescription: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi a officia molestiae quo. Excepturi accusantium voluptate amet sapiente. Autem ex nesciunt minus inventore eum architecto corporis labore mollitia, explicabo dolorem!'
         },
         {
             serviceTitle: 'Replacements of License Plates',
-            serviceIcon: 'fa fa-car',
+            serviceIcon: 'fa-solid fa-language',
             serviceDescription: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi a officia molestiae quo. Excepturi accusantium voluptate amet sapiente. Autem ex nesciunt minus inventore eum architecto corporis labore mollitia, explicabo dolorem!'
         },
         {
             serviceTitle: 'Change of Address',
-            serviceIcon: 'fa fa-address-card-o',
+            serviceIcon: 'fa-regular fa-address-card',
             serviceDescription: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi a officia molestiae quo. Excepturi accusantium voluptate amet sapiente. Autem ex nesciunt minus inventore eum architecto corporis labore mollitia, explicabo dolorem!'
         },
         {
             serviceTitle: 'Release of Liability',
-            serviceIcon: 'fa fa-car',
+            serviceIcon: 'fa-solid fa-user-minus fa-fade',
             serviceDescription: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi a officia molestiae quo. Excepturi accusantium voluptate amet sapiente. Autem ex nesciunt minus inventore eum architecto corporis labore mollitia, explicabo dolorem!'
         },
         {
             serviceTitle: 'VIN Verification',
-            serviceIcon: 'fa fa-car',
+            serviceIcon: 'fa-solid fa-check',
             serviceDescription: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi a officia molestiae quo. Excepturi accusantium voluptate amet sapiente. Autem ex nesciunt minus inventore eum architecto corporis labore mollitia, explicabo dolorem!'
         }
     ];
