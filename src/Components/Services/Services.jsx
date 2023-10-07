@@ -5,47 +5,34 @@ function Services() {
         {
             serviceTitle: 'Vehicle Registration',
             serviceIcon: 'fa fa-car',
-            serviceDescription: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi a officia molestiae quo. Excepturi accusantium voluptate amet sapiente. Autem ex nesciunt minus inventore eum architecto corporis labore mollitia, explicabo dolorem!'
-        },
-        {
-            serviceTitle: 'CA Titling',
-            serviceIcon: 'fa-solid fa-file-signature',
-            serviceDescription: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi a officia molestiae quo. Excepturi accusantium voluptate amet sapiente. Autem ex nesciunt minus inventore eum architecto corporis labore mollitia, explicabo dolorem!'
+            serviceDescription: `Get a quick California title transfer with our service.
+            You'll need: Signed original Title and a Smog Check (depending on vehicle).
+            Contact us today!`
         },
         {
             serviceTitle: 'Registration Renewals',
             serviceIcon: 'fa-regular fa-calendar-check',
-            serviceDescription: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi a officia molestiae quo. Excepturi accusantium voluptate amet sapiente. Autem ex nesciunt minus inventore eum architecto corporis labore mollitia, explicabo dolorem!'
+            serviceDescription: `Renew your tags and get immediately your registration and stickers on location. You'll need one of the following: Your DMV renewal notice letter, Car registration or provide your CA license plate and last 3 of the VIN. Stay hassle-free with EZ Car Registration Services!`
         },
         {
             serviceTitle: 'Out-of-State Title Transfers',
             serviceIcon: 'fa-solid fa-truck-moving',
-            serviceDescription: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi a officia molestiae quo. Excepturi accusantium voluptate amet sapiente. Autem ex nesciunt minus inventore eum architecto corporis labore mollitia, explicabo dolorem!'
+            serviceDescription: `You will have to do an out-of-state transfer when the vehicle you buy has an out of state license. You'll need the following: The out-of-state title and smog.`
         },
         {
-            serviceTitle: 'Replacements of Stickers',
+            serviceTitle: 'LicensePlate/Sticker Replacements',
             serviceIcon: 'fa-solid fa-ticket',
-            serviceDescription: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi a officia molestiae quo. Excepturi accusantium voluptate amet sapiente. Autem ex nesciunt minus inventore eum architecto corporis labore mollitia, explicabo dolorem!'
-        },
-        {
-            serviceTitle: 'Replacements of License Plates',
-            serviceIcon: 'fa-solid fa-language',
-            serviceDescription: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi a officia molestiae quo. Excepturi accusantium voluptate amet sapiente. Autem ex nesciunt minus inventore eum architecto corporis labore mollitia, explicabo dolorem!'
-        },
-        {
-            serviceTitle: 'Change of Address',
-            serviceIcon: 'fa-regular fa-address-card',
-            serviceDescription: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi a officia molestiae quo. Excepturi accusantium voluptate amet sapiente. Autem ex nesciunt minus inventore eum architecto corporis labore mollitia, explicabo dolorem!'
+            serviceDescription: 'We can help you replace your lost/stolen sticker and/or license plate. You will just need an ID/Passport to show proof that you are the owner of the vehicle.'
         },
         {
             serviceTitle: 'Release of Liability',
             serviceIcon: 'fa-solid fa-user-minus fa-fade',
-            serviceDescription: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi a officia molestiae quo. Excepturi accusantium voluptate amet sapiente. Autem ex nesciunt minus inventore eum architecto corporis labore mollitia, explicabo dolorem!'
+            serviceDescription: ''
         },
         {
             serviceTitle: 'VIN Verification',
             serviceIcon: 'fa-solid fa-check',
-            serviceDescription: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi a officia molestiae quo. Excepturi accusantium voluptate amet sapiente. Autem ex nesciunt minus inventore eum architecto corporis labore mollitia, explicabo dolorem!'
+            serviceDescription: 'We provide seamless VIN verification on site, with our licensed VIN verification personnel. You will just need to bring the car that needs to be VIN verified on site and the title or car registration. Ask for our mobile VIN verification service.'
         }
     ];
 

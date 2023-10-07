@@ -1,10 +1,12 @@
 import './style.css';
 import PropTypes from 'prop-types';
+
 ServiceCard.propTypes = {
     serviceInfo: PropTypes.object,
     serviceNumber:PropTypes.number,
 }
-function ServiceCard({ serviceInfo, serviceNumber} ) {
+
+function ServiceCard({serviceInfo, serviceNumber}) {
     return (
         <div className="col-mg-6 col-lg-4">
             <div className="single-service">
