@@ -69,7 +69,7 @@ function Blog() {
   ]
   return (
     <div id='blog' className='container'>
-      <h2 className='blogContainerTitle'><i className="fas fa-blog"></i> Blogs</h2>
+      <h2 className='blogContainerTitle'><i className="fas fa-blog"></i> EZ Car Blog <i className='fas fa-blog'></i></h2>
       <ul className="blog_Container">
         {blogs.map((blogInfo, index) =>
           <li key={index} className="item">
