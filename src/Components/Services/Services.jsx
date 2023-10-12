@@ -22,12 +22,12 @@ function Services() {
         {
             serviceTitle: 'LicensePlate/Sticker Replacements',
             serviceIcon: 'fa-solid fa-ticket',
-            serviceDescription: 'We can help you replace your lost/stolen sticker and/or license plate. You will just need an ID/Passport to show proof that you are the owner of the vehicle.'
+            serviceDescription: 'We can help you replace your lost/stolen sticker and/or license plate. You will just need an ID/Passport and an old registration card to show proof that you are the owner of the vehicle.'
         },
         {
             serviceTitle: 'Release of Liability',
             serviceIcon: 'fa-solid fa-user-minus fa-fade',
-            serviceDescription: ''
+            serviceDescription: 'We can help you fill out the release of liability of your recently sold vehicle.'
         },
         {
             serviceTitle: 'VIN Verification',
