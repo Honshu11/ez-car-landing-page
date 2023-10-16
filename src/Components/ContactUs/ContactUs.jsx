@@ -1,10 +1,11 @@
 import './style.css';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAddressCard } from '@fortawesome/free-solid-svg-icons';
 const ContactUs = () => {
   return (
     <div id='contactUs' className="container">
       <div className="address-container">
-        <h2 className='addressContainerTitle'><i className="fas fa-address-card"></i> Contact Us</h2>
+        <h2 className='addressContainerTitle'><FontAwesomeIcon icon={faAddressCard} /> Contact Us</h2>
         <div className="addressContainerSubtitle">
           <div className="me-1">
             <i className="bi bi-geo-alt-fill"></i><span> : </span>
