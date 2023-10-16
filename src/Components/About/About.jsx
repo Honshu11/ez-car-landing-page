@@ -33,6 +33,15 @@ function About() {
             <div className="carousel-item active">
               <img src=".\Images\EzCar-skipTheLine.png" alt="People waiting in line." className="img-fluid" />
             </div>
+            <div className="carousel-item active">
+              <img src=".\Images\ezcar-alldocs.png" alt="DMV checklist" className='img-fluid' />
+            </div>
+            <div className="carousel-item active">
+              <img src=".\Images\ezcar-tags.png" alt="CA License plate" className='img-fluid' />
+            </div>
+            <div className="carousel-item active">
+              <img src=".\Images\ezcar-family.png" alt="DMV checklist to add family members on car title" className='img-fluid'/>
+            </div>
           </div>
           <button className='carousel-control-prev' data-bs-target='#carousel' data-bs-slide='prev'>
             <span className='carousel-control-prev-icon' aria-hidden='true'></span>
