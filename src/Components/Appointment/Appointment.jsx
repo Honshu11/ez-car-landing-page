@@ -1,9 +1,10 @@
 import './style.css';
-
+import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Appointment() {
   return (
     <div id='appointment' className='container text-white'>
-      <h2 className='appointmentsContainerTitle'><i className="fas fa-calendar-alt"></i> Appointments</h2>
+      <h2 className='appointmentsContainerTitle'><FontAwesomeIcon icon={faCalendarAlt} /> Appointments</h2>
       <p className="appointmentsContainerSubtitle">
         We are here to help. Schedule an appointment below:
       </p>
@@ -12,7 +13,7 @@ function Appointment() {
           <button type="button" className="btn btn-lg p-2 bg-danger text-white">Calendly Appointment</button>
         </a>
       </div>
-     
+
     </div>
   )
 }

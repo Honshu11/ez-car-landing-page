@@ -1,6 +1,7 @@
 import BlogCard from './BlogCard/BlogCard';
 import './style.css';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBlog } from '@fortawesome/free-solid-svg-icons';
 function Blog() {
   const blogs = [{
     tag: 'FYI',
@@ -69,7 +70,7 @@ function Blog() {
   ]
   return (
     <div id='blog' className='container'>
-      <h2 className='blogContainerTitle'><i className="fas fa-blog"></i> EZ Car Blog <i className='fas fa-blog'></i></h2>
+      <h2 className='blogContainerTitle'><FontAwesomeIcon icon={faBlog} /> EZ Car Blog <FontAwesomeIcon icon={faBlog} /></h2>
       <ul className="blog_Container">
         {blogs.map((blogInfo, index) =>
           <li key={index} className="item">
