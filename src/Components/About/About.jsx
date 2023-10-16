@@ -30,6 +30,9 @@ function About(){
               <div className="carousel-item active">
                 <img src=".\Images\EzCar-skipTheLine.png" alt="People waiting in line." />
               </div>
+              <div className='carousel-item active'>
+                <img src=".\Images\ezcar-alldocs.png" alt="information about what ez car registration svcs do." />
+              </div>
             </div>
             <button className='carousel-control-prev' type='button' data-bs-target='carousel' data-bs-slide='prev'>
               <span className='carousel-control-prev-icon' aria-hidden='true'></span>
