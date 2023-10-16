@@ -1,4 +1,5 @@
 import './style.css';
+
 {/*}
 function About() {
   return (
@@ -23,7 +24,7 @@ function About() {
       <div className="d-flex flex-lg-row flex-column-reverse align-items-center g-5 py-5">
         <div className="col-lg-6 text-white">
           <h1 className="display-5 fw-bold 1h-1 mb-3">EZ Car Registration Services</h1>
-          <p className="lead"> EZ Car Registration Services is a family-owned company that specializes in Business Partner Automation (BPA) programs.We are authorized to process various vehicle-related transactions, making it convenient for our customers.</p>
+          <p className="lead"> EZ Car Registration Services is a family-owned company that is a DMV Business Partner Automation (BPA) program. At EZ Car Registration Services, we are committed to providing top-notch customer service. We understand the unique needs of our customers and strive to make the vehicle-related processes as smooth and hassle-free as possible.</p>
         </div>
         <div id="carousel" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">

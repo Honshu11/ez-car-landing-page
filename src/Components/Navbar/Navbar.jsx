@@ -23,9 +23,6 @@ function Navbar() {
                 <button className={'nav-link navtitleColor'} onClick={() => handleOnClick('about')}>About</button>
               </li>
               <li className='nav-item'>
-                <button className={'nav-link navtitleColor'} onClick={() => handleOnClick('pricing')}>Pricing</button>
-              </li>
-              <li className='nav-item'>
                 <button className={'nav-link navtitleColor'} onClick={() => handleOnClick('services')}>Services</button>
               </li>
               <li className='nav-item'>
