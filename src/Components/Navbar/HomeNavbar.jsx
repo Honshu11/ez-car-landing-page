@@ -1,6 +1,6 @@
 import './style.css';
-
-function Navbar() {
+import { Link } from 'react-router-dom';
+function HomeNavbar() {
   const handleOnClick = (bodyElementID) => {
     const targetElement = document.body.querySelector(`[id=${bodyElementID}]`);
     if (targetElement) {
@@ -9,6 +9,7 @@ function Navbar() {
       console.error(`Element with id "${bodyElementID}" not found.`);
     }
   }
+
   return (
     <>
       <nav className={'navbar navbar-expand-lg navbar-dark'}>
@@ -26,7 +27,7 @@ function Navbar() {
                 <button className={'nav-link navtitleColor'} onClick={() => handleOnClick('services')}>Services</button>
               </li>
               <li className='nav-item'>
-                <button className={'nav-link navtitleColor'} onClick={() => handleOnClick('blog')}>Blog</button>
+                <Link to="/blogs" className={'nav-link navtitleColor'}>Blog</Link>
               </li>
               <li className='nav-item'>
                 <button className={'nav-link navtitleColor'} onClick={() => handleOnClick('appointment')}>Appointment</button>
@@ -42,4 +43,4 @@ function Navbar() {
   )
 }
 
-export default Navbar;
+export default HomeNavbar;

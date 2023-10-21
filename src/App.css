@@ -1,6 +1,7 @@
 #root {
   width:100vw;
   background-color: black;
+  overflow-x: hidden;
 }
 
 .logo {
