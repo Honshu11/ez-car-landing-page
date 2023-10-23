@@ -1,7 +1,5 @@
 @import url("https://fonts.blog_googleapis.blog_com/css2?family=Quicksand:wght@300.blog_.blog_700&display=swap");
 
-
-
 .blog_img {
     max-width: 100%;
     display: block;
@@ -11,13 +9,11 @@
 .blog_card {
     display: flex;
     flex-direction: column;
-    width: clamp(20rem, calc(20rem + 2vw), 22rem);
+    width: clamp(18rem, calc(18rem + 2vw), 22rem);
     overflow: hidden;
-    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.blog_1);
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
     border-radius: 1em;
-    background: #ECE9E6;
     background: linear-gradient(to right, #FFFFFF, #ECE9E6);
-
 }
 
 .blog_card_body {
@@ -35,9 +31,6 @@
     font-size: .75rem;
 }
 
-.blog_tag {
-    margin-left: .5em;
-}
 
 .blog_tag-blue {
     background: #56CCF2;
@@ -58,7 +51,7 @@
 }
 
 .blog_card_body h4 {
-    font-size: 1.blog_5rem;
+    font-size: 1.5rem;
     text-transform: capitalize;
 }
 
