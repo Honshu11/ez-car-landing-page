@@ -14,9 +14,9 @@ const ContactUs = () => {
           <p>City, State, ZIP</p>
         </div>
       </div>
-      <p className='addressContainerSubtitle'><i className="bi bi-telephone-fill"></i>&nbsp;:&nbsp;(123) 456-7890</p>
-      <p className='addressContainerSubtitle'><i className="bi bi-envelope-fill"></i>&nbsp;:&nbsp;example@email.com</p>
-    </div >
+      <p className='addressContainerSubtitle'><i className="bi bi-telephone-fill text-danger"></i>&nbsp;:&nbsp;(650) 362-4308</p>
+      <p className='addressContainerSubtitle'><i className="bi bi-envelope-fill text-danger"></i>&nbsp;:&nbsp;EzCar.Management@gmail.com</p>
+    </div>
   );
 };
 
