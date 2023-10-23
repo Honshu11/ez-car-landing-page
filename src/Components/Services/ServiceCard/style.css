@@ -4,10 +4,7 @@ a,p,h1,h2,h3,h4,ul {
 }
 
 .section-services {
-	/* padding-top: 110px; */
-	/* padding-bottom: 80px; */
 	font-family: "Poppins", sans-serif;
-	/* background-color: #211f24; */
 	color: #fff;
 }
 
@@ -21,6 +18,7 @@ a,p,h1,h2,h3,h4,ul {
 	padding-bottom: 25px;
 	text-transform: uppercase;
 	font-weight: 700;
+	color: #f70037;
 }
 
 .section-services .header-section .title:before {
@@ -45,12 +43,8 @@ a,p,h1,h2,h3,h4,ul {
 	background-color: #f70037;
 }
 
-.section-services .header-section .title span {
-	color: #f70037;
-}
-
 .section-services .header-section .description {
-	color: #6f6f71;
+	color:#cbd5e1;
 }
 
 .section-services .single-service {
@@ -66,7 +60,6 @@ a,p,h1,h2,h3,h4,ul {
 .section-services .single-service .part-1 {
 	padding: 20px;
 	border-bottom: 2px solid #1d1e23;
-	flex-grow: 2;
 	width: 100%;
 }
 
@@ -90,10 +83,11 @@ a,p,h1,h2,h3,h4,ul {
 }
 
 .section-services .single-service .part-2 .description {
-	margin-bottom: 22px;
 	color: #6f6f71;
 	font-size: 14px;
 	line-height: 1.8em;
+	margin-bottom: 0;
+	color:#cbd5e1;
 }
 
 .section-services .single-service .part-2 a {

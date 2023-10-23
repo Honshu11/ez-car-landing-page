@@ -10,7 +10,7 @@ function Appointment() {
       </p>
       <div className="text-center">
         <a href="https://calendly.com/ezcar-management" className='appointmentButton'>
-          <button type="button" className="btn btn-lg p-2 bg-danger text-white">Calendly Appointment</button>
+          <button type="button" className="btn btn-lg p-2 text-white">Calendly Appointment</button>
         </a>
       </div>
 

@@ -12,7 +12,7 @@ function BlogNavbar() {
                 <div className='collapse navbar-collapse justify-content-end' id='navbarSupportedContent'>
                     <ul className='navbar-nav'>
                         <li className='nav-item'>
-                            <Link to="/" className={'nav-link navtitleColor'}>Home</Link>
+                            <Link to="/" className={'nav-link'}>Home</Link>
                         </li>
                     </ul>
                 </div>

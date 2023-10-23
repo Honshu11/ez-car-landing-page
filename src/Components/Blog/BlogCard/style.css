@@ -85,10 +85,3 @@
 .blog_user_info>small {
     color: #666;
 }
-
-@media screen and (max-width: 350px) {
-    .blog_card {
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
-    }
-}

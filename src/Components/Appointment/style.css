@@ -22,4 +22,6 @@
     justify-content: center;
     display: inline-block;
     align-items: start;
+    background-color: #f70037;
+    border-radius: 1rem;
 }
