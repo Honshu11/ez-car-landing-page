@@ -3,7 +3,7 @@ import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Appointment() {
   return (
-    <div id='appointment' className='container text-white'>
+    <div id='appointment' className='container text-white my-5'>
       <h2 className='appointmentsContainerTitle'><FontAwesomeIcon icon={faCalendarAlt} /> Appointments</h2>
       <p className="appointmentsContainerSubtitle">
         We are here to help. Schedule an appointment below:

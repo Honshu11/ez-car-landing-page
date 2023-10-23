@@ -3,18 +3,23 @@
     text-transform: uppercase;
     font-weight: 700;
     text-align: center;
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
 
-/* .blog_Container {
+.blog_Container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     text-align: left;
     margin-block: 2rem;
-    
-} */
-.blog_Container{
+    list-style: none;
+    gap: 2rem;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+
+/*.blog_Container{
     display: flex;
     margin-block: 2rem;
     padding-bottom: 20px;
@@ -25,7 +30,7 @@
     gap: 2rem;
 }
 
-.item {
+ .item {
     scroll-snap-align: start;
     transition: all 0.2s;
 }
@@ -63,4 +68,4 @@
     .item {
         flex-basis: calc(25% - 30px);
     }
-}
+} */

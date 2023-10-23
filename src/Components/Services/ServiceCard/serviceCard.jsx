@@ -8,18 +8,16 @@ ServiceCard.propTypes = {
 
 function ServiceCard({ serviceInfo, serviceNumber }) {
     return (
-        <div className="col-mg-6 col-lg-4">
-            <div className="single-service">
-                <div className="part-1">
-                    {serviceInfo.serviceIcon}
-                    <h3 className="title">{serviceInfo.serviceTitle}</h3>
-                </div>
-                <div className="part-2">
-                    <p className="description collapse" id={`collapse${serviceNumber}`}>{serviceInfo.serviceDescription}</p>
-                    <a data-bs-toggle="collapse" href={`#collapse${serviceNumber}`} role="button" aria-expanded="false" aria-controls={`collapse${serviceNumber}`}>
-                        <i className="fas fa-arrow-circle-right"></i>Read More +
-                    </a>
-                </div>
+        <div className="single-service col-12 col-md-5 col-lg-4 col-xl-3 col-xxl-2">
+            <div className="part-1">
+                {serviceInfo.serviceIcon}
+                <h3 className="title">{serviceInfo.serviceTitle}</h3>
+            </div>
+            <div className="part-2">
+                <p className="description collapse" id={`collapse${serviceNumber}`}>{serviceInfo.serviceDescription}</p>
+                <a data-bs-toggle="collapse" href={`#collapse${serviceNumber}`} role="button" aria-expanded="false" aria-controls={`collapse${serviceNumber}`}>
+                    <i className="fas fa-arrow-circle-right"></i>Read More +
+                </a>
             </div>
         </div>
     )
