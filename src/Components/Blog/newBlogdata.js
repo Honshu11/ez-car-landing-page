@@ -6,7 +6,7 @@ export async function getBlogs() {
       {
         sheetId: import.meta.env.VITE_SHEETID,
         subSheetsIds: [
-          import.meta.env.VITE_SUBSHEETSID
+          import.meta.env.VITE_BLOGSSUBSHEETSID
         ],
       },
     ],
