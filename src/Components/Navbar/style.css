@@ -6,6 +6,6 @@
     text-decoration: none;
 }
 
-.navtitleColor{
-    color: white;
+.nav-link{
+    color: white !important;
 }

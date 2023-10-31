@@ -1,0 +1,11 @@
+#about {
+    gap: 1rem;
+}
+
+.lead {
+    text-align: justify;
+}
+
+.aboutTitle {
+    color: #f70037;
+}

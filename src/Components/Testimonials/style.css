@@ -1,0 +1,73 @@
+.testimonials h3 {
+    color: #f70037;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+.testimonials .card {
+    border-bottom: 3px #f70037 solid !important;
+    transition: 0.5s;
+    margin-top: 60px;
+    padding: 1rem;
+}
+
+.testimonials .card i {
+    background-color: #f70037;
+    color: #ffffff;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    margin: -3.5rem auto 0 auto;
+}
+
+.card-body {
+    padding: 1rem 0 0 0;
+    margin-bottom: 0rem;
+
+}
+
+.customRow {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    animation: customRow 30s linear infinite;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@keyframes customRow {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: -100%
+    }
+}
+
+@media screen and (min-width: 0px){
+    .testimonials .card {
+        width: 90vw;
+    }
+}
+
+@media screen and (min-width: 576px){
+    .testimonials .card {
+        width: 50vw;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .testimonials .card {
+        width: 50vw;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .testimonials .card {
+        width: 25vw;
+    }
+}

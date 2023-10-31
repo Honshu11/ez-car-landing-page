@@ -21,19 +21,19 @@ function HomeNavbar() {
           <div className='collapse navbar-collapse justify-content-end' id='navbarSupportedContent'>
             <ul className='navbar-nav'>
               <li className='nav-item'>
-                <button className={'nav-link navtitleColor'} onClick={() => handleOnClick('about')}>About</button>
+                <button className={'nav-link'} onClick={() => handleOnClick('about')}>About</button>
               </li>
               <li className='nav-item'>
-                <button className={'nav-link navtitleColor'} onClick={() => handleOnClick('services')}>Services</button>
+                <button className={'nav-link'} onClick={() => handleOnClick('services')}>Services</button>
               </li>
               <li className='nav-item'>
-                <Link to="/blogs" className={'nav-link navtitleColor'}>Blog</Link>
+                <Link to="/blogs" className={'nav-link'}>Blog</Link>
               </li>
               <li className='nav-item'>
-                <button className={'nav-link navtitleColor'} onClick={() => handleOnClick('appointment')}>Appointment</button>
+                <button className={'nav-link'} onClick={() => handleOnClick('appointment')}>Appointment</button>
               </li>
               <li className='nav-item'>
-                <button className={'nav-link navtitleColor'} onClick={() => handleOnClick('contactUs')}>Contact Us</button>
+                <button className={'nav-link'} onClick={() => handleOnClick('contactUs')}>Contact Us</button>
               </li>
             </ul>
           </div>
