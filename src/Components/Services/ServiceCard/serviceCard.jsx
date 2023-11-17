@@ -1,6 +1,7 @@
 import './style.css';
 import PropTypes from 'prop-types';
 import { useState } from 'react';
+
 ServiceCard.propTypes = {
     serviceInfo: PropTypes.object,
     serviceNumber: PropTypes.number,

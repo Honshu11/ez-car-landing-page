@@ -38,9 +38,6 @@ function About() {
             <img src=".\Images\ezcar-alldocs.png" alt="DMV checklist" className='img-fluid' />
           </div>
           <div className="carousel-item ">
-            <img src=".\Images\ezcar-tags.png" alt="CA License plate" className='img-fluid' />
-          </div>
-          <div className="carousel-item ">
             <img src=".\Images\ezcar-family.png" alt="DMV checklist to add family members on car title" className='img-fluid' />
           </div>
         </div>

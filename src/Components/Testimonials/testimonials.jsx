@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { getTestimonials } from "./testimonialData";
-import TestimonialCard from './testimonialCard/testimonialCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCommentDots } from '@fortawesome/free-solid-svg-icons'
+import TestimonialCard from './testimonialCard/testimonialCard';
 import './style.css';
 
 function Testimonials() {

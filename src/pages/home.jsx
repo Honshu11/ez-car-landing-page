@@ -4,7 +4,10 @@ import Services from '../Components/Services/Services';
 import ContactUs from '../Components/ContactUs/ContactUs';
 import Footer from '../Components/Footer/Footer';
 import HomeNavbar from '../Components/Navbar/HomeNavbar';
-import Testimonials from '../Components/Testimonials/testimonials'
+import Testimonials from '../Components/Testimonials/testimonials';
+//import TestimonialCard from '../Components/Testimonials/testimonialCard/testimonialCard';
+
+
 function Home() {
   return (
     <>
@@ -12,7 +15,7 @@ function Home() {
       <About />
       <Appointment />
       <Services />
-      <Testimonials/>
+      <Testimonials />
       <ContactUs />
       <Footer />
     </>

@@ -1,17 +1,18 @@
 import './style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAddressCard } from '@fortawesome/free-solid-svg-icons';
+
 const ContactUs = () => {
   return (
     <div id='contactUs' className="container">
       <h2 className='addressContainerTitle'><FontAwesomeIcon icon={faAddressCard} /> Contact Us</h2>
       <div className="addressContainerSubtitle">
         <div className="me-1">
-          <i className="bi bi-geo-alt-fill"></i><span> : </span>
+          <i className="bi bi-geo-alt-fill text-danger"></i><span> : </span>
         </div>
         <div>
-          <p>123 Main Street</p>
-          <p>City, State, ZIP</p>
+          <p> 3113 Middlefield Rd</p>
+          <p>Redwood City, CA, 94063</p>
         </div>
       </div>
       <p className='addressContainerSubtitle'><i className="bi bi-telephone-fill text-danger"></i>&nbsp;:&nbsp;(650) 362-4308</p>
