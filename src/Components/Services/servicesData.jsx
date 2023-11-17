@@ -1,4 +1,4 @@
-import { faCar, faTruckMoving, faTicket, faUserMinus, faCheck } from '@fortawesome/free-solid-svg-icons';
+import { faCar, faTruckMoving, faTicket, faCheck } from '@fortawesome/free-solid-svg-icons';
 import { faCalendarCheck } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -16,12 +16,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
         serviceDescription: `Renew your tags and get immediately your registration and stickers on location. You'll need one of the following: Your DMV renewal notice letter, Car registration or provide your CA license plate and last 3 of the VIN. Stay hassle-free with EZ Car Registration Services!`
     },
     {
-        serviceTitle: 'Release of Liability',
-        serviceIcon: <FontAwesomeIcon icon={faUserMinus} fade/>,
-        serviceDescription: 'We can help you fill out the release of liability of your recently sold vehicle.'
-    },
-    {
-        serviceTitle: 'VIN Verification',
+        serviceTitle: 'Vehicle Verification (VIN)',
         serviceIcon: <FontAwesomeIcon icon={faCheck}/>,
         serviceDescription: 'We provide seamless VIN verification on site, with our licensed VIN verification personnel. You will just need to bring the car that needs to be VIN verified on site and the title or car registration. Ask for our mobile VIN verification service.'
     },

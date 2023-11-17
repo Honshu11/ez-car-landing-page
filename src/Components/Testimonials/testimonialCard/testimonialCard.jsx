@@ -1,8 +1,9 @@
 import '../style.css';
-import { useState } from "react";
+import { useState } from 'react';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons'
+import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
+
 TestimonialCard.propTypes = {
     testimonialInfo: PropTypes.object,
 }
